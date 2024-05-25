@@ -173,7 +173,7 @@ nav a:hover {
   justify-items: centeheaderr;
   text-align: center;
   grid-template-columns: repeat(1, 1fr);
-  background: center/cover url("./assets/header.jpg");
+  background: center/cover url("https://github.com/ManojBadiger/Responsive-Hotel-Website-Setup/blob/main/assets/header.jpg?raw=true");
 }
 
 .heroTextCon {
