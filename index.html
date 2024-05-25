@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#home">
+          <img src="https://github.com/ManojBadiger/Responsive-Hotel-Website-Setup/blob/main/assets/logo.png?raw=true" alt="Hotel logo"  />
+        </a>
+      </div>
+      <i class="openNav fa-solid fa-bars hide"></i>
+      <i class="closeNav fa-solid fa-xmark hide"></i>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#explore">Explore</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="cta">Book Now</button>
+    </header>
+    <section id="home" class="hero">
+      <div class="heroTextCon">
+        <p class="subText">Where comfort meets convenience</p>
+        <h1>Feel Right At <span>Home</span> During Your Stay With Us</h1>
+      </div>
+      <ul class="statusInfo">
+        <li>
+          <i class="fa-regular fa-calendar-days"></i>
+          <div class="statusText">
+            <strong>Check-in</strong>
+            <span class="subText">Check In</span>
+          </div>
+        </li>
+        <li>
+          <i class="fa-solid fa-calendar-days"></i>
+          <div class="statusText">
+            <strong>Check-out</strong>
+            <span class="subText">Check Out</span>
+          </div>
+        </li>
+        <li>
+          <i class="fa-regular fa-user"></i>
+          <div class="statusText">
+            <strong>Guest</strong>
+            <span class="subText">Guest</span>
+          </div>
+        </li>
+        <button class="cta">Check out</button>
+      </ul>
+    </section>
+    <section id="about">
+      <img
+        src="https://github.com/ManojBadiger/Responsive-Hotel-Website-Setup/blob/main/assets/about.jpg?raw=true"
+        alt="Picture of a hotel room"
+      />
+      <div class="aboutText">
+        <div class="title">
+          <span class="sectionTitle">About Us</span>
+          <div class="line"></div>
+        </div>
+        <span class="sectionMainText">
+          Your Gateway to Unforgettable Gateways!
+        </span>
+        <p class="subText">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+          tempore a sequi sunt ex placeat dolorem commodi eligendi distinctio
+          quisquam praesentium labore ipsam minus, totam esse suscipit sed.
+        </p>
+        <button class="cta">Read More</button>
+      </div>
+    </section>
+    <section class="rooms">
+      <div class="title">
+        <div>
+          <span class="sectionTitle">Welcome to our living room</span>
+          <div class="line"></div>
+        </div>
+        <span class="sectionMainText">
+          Where Unforgettable Relaxation Begins.
+        </span>
+      </div>
+      <ul class="roomsList">
+        <li class="room">
+          <div class="imgCon">
+            <img
+              src="https://github.com/ManojBadiger/Responsive-Hotel-Website-Setup/blob/main/assets/room-1.jpg?raw=true"
+              alt="Picture of a hotel room"
+            />
+            <div class="roomActions">
+              <i class="fa-solid fa-heart"></i>
+              <i class="fa-solid fa-fill-drip"></i>
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+          </div>
+          <div class="roomText">
+            <div class="roomName">Falls Edge Retreat</div>
+            <p class="subText">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur quia non recusandae voluptates rerum ad tempore ab
+              quaerat animi provident.
+            </p>
+            <span class="subText roomPrice"
+              >Starting from <strong>$599/night</strong></span
+            >
+            <button class="cta">Book Now</button>
+          </div>
+        </li>
+        <li class="room">
+          <div class="imgCon">
+            <img
+              src="https://github.com/ManojBadiger/Responsive-Hotel-Website-Setup/blob/main/assets/room-2.jpg?raw=true"
+              alt="Picture of a hotel room"
+            />
+            <div class="roomActions">
+              <i class="fa-solid fa-heart"></i>
+              <i class="fa-solid fa-fill-drip"></i>
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+          </div>
+          <div class="roomText">
+            <div class="roomName">Hilltop Haven</div>
+            <p class="subText">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              natus ab. Porro rerum ab, aliquam exercitationem fugit praesentium
+              placeat!
+            </p>
+            <span class="subText roomPrice"
+              >Starting from <strong>$899/night</strong></span
+            >
+            <button class="cta">Book Now</button>
+          </div>
+        </li>
+        <li class="room">
+          <div class="imgCon">
+            <img
+              src="https://github.com/ManojBadiger/Responsive-Hotel-Website-Setup/blob/main/assets/room-3.jpg?raw=true"
+              alt="Picture of a hotel room"
+            />
+            <div class="roomActions">
+              <i class="fa-solid fa-heart"></i>
+              <i class="fa-solid fa-fill-drip"></i>
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+          </div>
+          <div class="roomText">
+            <div class="roomName">Forest Haven</div>
+            <p class="subText">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+              quam dignissimos veniam quia vero dicta beatae totam voluptatem!
+            </p>
+            <span class="subText roomPrice"
+              >Starting from <strong>$949/night</strong></span
+            >
+            <button class="cta">Book Now</button>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section id="services">
+      <div class="services">
+        <div class="sectionText">
+          <div class="title">
+            <span class="sectionTitle">Services</span>
+            <div class="line"></div>
+          </div>
+          <span class="sectionMainText"> Aim for Excellence. </span>
+        </div>
+        <ul class="listOfServices">
+          <li>
+            <i class="fa-solid fa-user-shield"></i>
+            <span>Premium Security Standards</span>
+          </li>
+          <li>
+            <i class="fa-regular fa-clock"></i>
+            <span>Around-the-Clock Room Assistance</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-headphones-simple"></i>
+            <span>Meeting Facilities</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-map-location-dot"></i>
+            <span>Tour Assistance Service</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <ul class="hotelStats">
+      <li>
+        <strong class="statAmount">30+</strong>
+        <span class="subText statName">Properties Avaliable</span>
+      </li>
+      <li>
+        <strong class="statAmount">460+</strong>
+        <span class="subText statName">Bookings Completed</span>
+      </li>
+      <li>
+        <strong class="statAmount">1000+</strong>
+        <span class="subText statName">Happy Customers</span>
+      </li>
+    </ul>
+    <section id="explore">
+      <div class="sectionText">
+        <div class="title">
+          <span class="sectionTitle">Explore</span>
+          <div class="line"></div>
+        </div>
+        <span class="sectionMainText"> What's New Today.</span>
+      </div>
+      <div class="imgCon">
+        <div class="newsInfo">
+          <span class="date subText">18th May 2024</span>
+          <span class="newsName"
+            >Introducing Our Latest Culinary Creations!</span
+          >
+          <button class="cta">Continue</button>
+        </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <div class="hotelInfo">
+        <span class="listHeader">Royal Orchid</span>
+        <p class="hotelDesc subText">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
+          quisquam quidem dolorum! Amet, sunt illum fuga omnis temporibus
+          necessitatibus perferendis sint labore porro molestias quidem quis
+          accusamus.
+        </p>
+        <button class="cta">Book Now</button>
+      </div>
+      <ul>
+        <span class="listHeader">Quick Links</span>
+        <li><a class="subText" href="#">Browse Destinations</a></li>
+        <li><a class="subText" href="#">Special Offers & Packages</a></li>
+        <li><a class="subText" href="#">Room Types & Amenities</a></li>
+        <li><a class="subText" href="#">Customer Reviews & Raitings</a></li>
+        <li><a class="subText" href="#">Travel Tips & Guides</a></li>
+      </ul>
+      <ul>
+        <span class="listHeader">Our Services</span>
+        <li><a class="subText" href="#">Concierge Assistance</a></li>
+        <li><a class="subText" href="#">Flexible Booking Options</a></li>
+        <li><a class="subText" href="#">Airport Transfers</a></li>
+        <li><a class="subText" href="#">Wellness & Recreation</a></li>
+      </ul>
+      <div>
+        <div class="contact">
+          <span class="listHeader">Contact Us</span>
+          <span class="email subText">lorem@ipsum.com</span>
+        </div>
+        <ul class="socialMedia">
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
